@@ -1,0 +1,28 @@
+{
+    "name": "ilhanet/erpnet-google-cloud-storage",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Luciano Porto",
+            "email": "luciano.bapo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "^5",
+        "superbalist/flysystem-google-storage": "^1.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ErpNET\\GoogleCloudStorage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErpNET\\GoogleCloudStorageTests\\": "tests/"
+        }
+    }
+}
